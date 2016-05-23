@@ -1,14 +1,14 @@
 .. _authenticate-to-cloud:
 
 Authenticate to the Rackspace Cloud
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------
 
 Whether you use cURL, a REST client, or a command line client (CLI) to send requests
 to the |apiservice|, you need an authentication token to include in the ``X-Auth-Token``
 header of each API request.
 
 With a valid token, you can send API requests to any of the API service endpoints that you
-are authorized to use. The authentication response includes a token expiration date. When 
+are authorized to use. The authentication response includes a token expiration date. When
 a token expires, you can send another authentication request to get a new one.
 
 .. note::
@@ -17,12 +17,12 @@ a token expires, you can send another authentication request to get a new one.
 
      - :rax-devdocs:`Authentication token operations<cloud-identity/v2/developer-guide/#document-api-operations/token-operations>`
 
-        The examples in the Getting Started Guide show how to authenticate by using 
-        username and API key credentials, which is a more secure way to communicate with 
-        API services. The authentication token operations reference describes other types 
+        The examples in the Getting Started Guide show how to authenticate by using
+        username and API key credentials, which is a more secure way to communicate with
+        API services. The authentication token operations reference describes other types
         of credentials that you can use for authentication.
 
      - :rax-devdocs:`Manage tokens and token expiration<cloud-identity/v2/developer-guide/#manage-authentication-tokens>`
 
-.. include:: ../common-gs/auth-using-curl.rst
-.. include:: ../common-gs/auth-using-nova.rst
+.. include:: common-gs/auth-using-curl.rst
+.. include:: common-gs/auth-using-nova.rst

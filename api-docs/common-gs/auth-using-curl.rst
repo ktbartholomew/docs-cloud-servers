@@ -1,7 +1,7 @@
 .. _authenticate-using-curl:
 
 Authenticating by using cURL
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------
 
 Follow these steps to authenticate to the Rackspace Cloud by
 :ref:`using cURL<how-curl-commands-work>`.
@@ -37,9 +37,9 @@ In the following example, the ellipsis (...)  represents other service endpoints
 are not shown. The values shown in this and other examples vary because the information
 returned is specific to your account.
 
-.. note:: 
+.. note::
 
-     For a detailed description of the information included in the authentication response, see 
+     For a detailed description of the information included in the authentication response, see
      :rax-devdocs:`Annotated authentication request and response<cloud-identity/v2/
      developer-guide/#document-authentication-info/sample-auth-req-response>`.
 
@@ -49,7 +49,7 @@ returned is specific to your account.
 
 .. important::
 
-   For |apiservice|, use values in the ``publicURL`` and ``tenantId`` fields for the 
+   For |apiservice|, use values in the ``publicURL`` and ``tenantId`` fields for the
    ``cloudServersOpenStack`` service for your region to make API calls.
 
 
@@ -61,11 +61,11 @@ If the request failed, review the response message and
 the following error message descriptions to determine next steps.
 
 ``400 Invalid request body: unable to parse Auth data. Please review XML or JSON formatting``:
-Review the authentication request for syntax or coding errors. If you are using cURL, see 
+Review the authentication request for syntax or coding errors. If you are using cURL, see
 the :ref:`Using cURL<how-curl-commands-work>`.
 
 
-``401 Unable to authenticate user with credentials provided``: Verify the authentication 
+``401 Unable to authenticate user with credentials provided``: Verify the authentication
 credentials submitted in the authentication request. If necessary, contact your Rackspace
 Cloud Administrator or Rackspace Support to get valid credentials.
 
@@ -155,7 +155,3 @@ To reference the value in an API request, prefix the variable name with a $, for
 
 
    Replace *publicURL* with the publicURL value listed in the service catalog.
-
-
-
-    

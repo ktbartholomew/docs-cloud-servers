@@ -51,7 +51,7 @@ master_doc = 'index'
 
 # The builder to use when running via the deconst preparer
 # builder = 'deconst-serial'
-builder = 'deconst-single'
+builder = 'deconst-serial'
 
 # General information about the project.
 project = 'Rackspace Cloud Servers'
@@ -79,7 +79,7 @@ release = '2'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build', 'samples', 'api-operations/methods*', 
+exclude_patterns = ['_build', 'samples', 'api-operations/methods*',
 'common-gs', 'getting-started/examples']
 
 # The reST default role (used for this markup: `text`) to use for all

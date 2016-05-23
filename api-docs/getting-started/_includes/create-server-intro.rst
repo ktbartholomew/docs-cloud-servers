@@ -1,12 +1,12 @@
 .. _create-server-intro:
 
 Create your first Server
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This section walks you through the steps to create an Ubuntu 11.10 server instance with 8 
-GBs of physical memory. The simple exercises show you how to access the API v2 through nova 
-client commands or cURL commands so that you can quickly create and manage servers. You can 
-also opt to use the supernova client with the nova client if you use multiple nova 
+This section walks you through the steps to create an Ubuntu 11.10 server instance with 8
+GBs of physical memory. The simple exercises show you how to access the API v2 through nova
+client commands or cURL commands so that you can quickly create and manage servers. You can
+also opt to use the supernova client with the nova client if you use multiple nova
 environments.
 
 The exercises also help you learn how cURL commands and the API v2 work.
